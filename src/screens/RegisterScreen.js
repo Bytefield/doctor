@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import useAddPatient from '@db/useAddPatient';
+// import useAddPatient from '@db/useAddPatient';
 
 const RegisterScreen = () => {
-    const { addPatient } = useAddPatient();
+    // const { addPatient } = useAddPatient();
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
